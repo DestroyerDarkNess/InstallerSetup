@@ -1,0 +1,959 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+InstallerSetup
+</name>
+</assembly>
+<members>
+<member name="P:InstallerSetup.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:InstallerSetup.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:InstallerSetup.My.Resources.Resources.Files">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="T:InstallerSetup.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:InstallerSetup.RegEdit.ReginiUserAccess">
+	<summary>
+ Specifies an user identifier for Regini.exe application.
+ </summary>
+</member><member name="P:InstallerSetup.RegEdit.RegInfo`1.RootKeyName">
+	<summary>
+ Gets or sets the registry root key.
+ ( eg: HKCU or HKEY_CURRENT_USER)
+ </summary>
+	<value>The registry root key.</value>
+</member><member name="P:InstallerSetup.RegEdit.RegInfo`1.SubKeyPath">
+	<summary>
+ Gets or sets the registry subkey path.
+ ( eg: subkey1\subkey2\ )
+ </summary>
+	<value>The registry subkey path.</value>
+</member><member name="P:InstallerSetup.RegEdit.RegInfo`1.ValueName">
+	<summary>
+ Gets or sets the registry value name.
+ </summary>
+	<value>The registry value name.</value>
+</member><member name="P:InstallerSetup.RegEdit.RegInfo`1.ValueType">
+	<summary>
+ Gets or sets the type of the registry value.
+ </summary>
+	<value>The type of the registry value.</value>
+</member><member name="P:InstallerSetup.RegEdit.RegInfo`1.ValueData">
+	<summary>
+ Gets or sets the data of the registry value.
+ </summary>
+	<value>The data of the registry value.</value>
+</member><member name="P:InstallerSetup.RegEdit.RegInfo`1.FullKeyPath">
+	<summary>
+ Gets the full key path.
+ </summary>
+	<value>The full key path.</value>
+</member><member name="P:InstallerSetup.RegEdit.RegInfo`1.RegistryKey(Microsoft.Win32.RegistryKeyPermissionCheck,System.Security.AccessControl.RegistryRights)">
+	<summary>
+ Gets a <see cref="P:InstallerSetup.RegEdit.RegInfo`1.RegistryKey(Microsoft.Win32.RegistryKeyPermissionCheck,System.Security.AccessControl.RegistryRights)"/> instance of the current RootKey\SubKey.
+ </summary>
+	<value>A <see cref="P:InstallerSetup.RegEdit.RegInfo`1.RegistryKey(Microsoft.Win32.RegistryKeyPermissionCheck,System.Security.AccessControl.RegistryRights)"/> instance of the current RootKey\SubKey.</value>
+</member><member name="T:InstallerSetup.RegEdit.RegInfo`1">
+	<summary>
+ Defines a registry key with a specified type of data.
+ </summary>
+</member><member name="P:InstallerSetup.RegEdit.RegInfo.ValueData">
+	<summary>
+ Gets or sets the data of the registry value.
+ </summary>
+	<value>The data of the registry value.</value>
+</member><member name="T:InstallerSetup.RegEdit.RegInfo">
+	<summary>
+ Defines a registry key.
+ </summary>
+</member><member name="M:InstallerSetup.RegEdit.CreateSubKey``1(System.String,System.String,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions)">
+	<summary>
+ Creates a new registry subkey.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="registryKeyPermissionCheck">The registry key permission check.</param>
+	<param name="registryOptions">The registry options.</param>
+	<returns>The registry key.</returns>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath</exception>
+</member><member name="M:InstallerSetup.RegEdit.CreateSubKey``1(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions)">
+	<summary>
+ Creates a new registry subkey.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<param name="registryKeyPermissionCheck">The registry key permission check.</param>
+	<param name="registryOptions">The registry options.</param>
+	<returns>The registry key.</returns>
+</member><member name="M:InstallerSetup.RegEdit.CreateSubKey``1(InstallerSetup.RegEdit.RegInfo{``0},Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions)">
+	<summary>
+ Creates a new registry subkey.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="regInfo">A <see cref="T:InstallerSetup.RegEdit.RegInfo`1"/> instance containing the registry info.</param>
+	<param name="registryKeyPermissionCheck">The registry key permission check.</param>
+	<param name="registryOptions">The registry options.</param>
+	<returns>The registry key.</returns>
+</member><member name="M:InstallerSetup.RegEdit.CreateSubKey(System.String,System.String,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions)">
+	<summary>
+ Creates a new registry subkey.
+ </summary>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="registryKeyPermissionCheck">The registry key permission check.</param>
+	<param name="registryOptions">The registry options.</param>
+	<returns>The registry key.</returns>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath</exception>
+</member><member name="M:InstallerSetup.RegEdit.CreateSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions)">
+	<summary>
+ Creates a new registry subkey.
+ </summary>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<param name="registryKeyPermissionCheck">The registry key permission check.</param>
+	<param name="registryOptions">The registry options.</param>
+	<returns>The registry key.</returns>
+</member><member name="M:InstallerSetup.RegEdit.CreateSubKey(InstallerSetup.RegEdit.RegInfo,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions)">
+	<summary>
+ Creates a new registry subkey.
+ </summary>
+	<param name="regInfo">A <see cref="T:InstallerSetup.RegEdit.RegInfo`1"/> instance containing the registry info.</param>
+	<param name="registryKeyPermissionCheck">The registry key permission check.</param>
+	<param name="registryOptions">The registry options.</param>
+	<returns>The registry key.</returns>
+</member><member name="M:InstallerSetup.RegEdit.DeleteSubKey(System.String,System.String,System.Boolean)">
+	<summary>
+ Deletes a registry subkey.
+ </summary>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="throwOnMissingSubKey">If set to <c>true</c>, throws an exception on missing subkey.</param>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath</exception>
+</member><member name="M:InstallerSetup.RegEdit.DeleteSubKey(System.String,System.Boolean)">
+	<summary>
+ Deletes a registry subkey.
+ </summary>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<param name="throwOnMissingSubKey">If set to <c>true</c>, throws an exception on missing subkey.</param>
+</member><member name="M:InstallerSetup.RegEdit.DeleteSubKey``1(InstallerSetup.RegEdit.RegInfo{``0},System.Boolean)">
+	<summary>
+ Deletes a registry subkey.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="regInfo">A <see cref="T:InstallerSetup.RegEdit.RegInfo`1"/> instance containing the registry info.</param>
+	<param name="throwOnMissingSubKey">If set to <c>true</c>, throws an exception on missing subkey.</param>
+</member><member name="M:InstallerSetup.RegEdit.CreateValue``1(System.String,System.String,System.String,``0,Microsoft.Win32.RegistryValueKind)">
+	<summary>
+ Creates or replaces a registry value.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="valueName">The value name.</param>
+	<param name="valueData">The value data.</param>
+	<param name="valueType">The registry value type.</param>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath or valueName</exception>
+</member><member name="M:InstallerSetup.RegEdit.CreateValue``1(System.String,System.String,``0,Microsoft.Win32.RegistryValueKind)">
+	<summary>
+ Creates or replaces a registry value.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<param name="valueName">The value name.</param>
+	<param name="valueData">The value data.</param>
+	<param name="valueType">The registry value type.</param>
+</member><member name="M:InstallerSetup.RegEdit.CreateValue``1(InstallerSetup.RegEdit.RegInfo{``0})">
+	<summary>
+ Creates or replaces a registry value.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="regInfo">A <see cref="T:InstallerSetup.RegEdit.RegInfo`1"/> instance containing the registry info.</param>
+</member><member name="M:InstallerSetup.RegEdit.DeleteValue(System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ Deletes a registry subkey.
+ </summary>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="valueName">The value name.</param>
+	<param name="throwOnMissingValue">If set to <c>true</c>, throws an exception on missing value.</param>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath or valueName</exception>
+</member><member name="M:InstallerSetup.RegEdit.DeleteValue(System.String,System.String,System.Boolean)">
+	<summary>
+ Deletes a registry subkey.
+ </summary>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<param name="valueName">The value name.</param>
+	<param name="throwOnMissingValue">If set to <c>true</c>, throws an exception on missing value.</param>
+</member><member name="M:InstallerSetup.RegEdit.DeleteValue``1(InstallerSetup.RegEdit.RegInfo{``0},System.Boolean)">
+	<summary>
+ Deletes a registry subkey.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="regInfo">A <see cref="T:InstallerSetup.RegEdit.RegInfo`1"/> instance containing the registry info.</param>
+	<param name="throwOnMissingValue">If set to <c>true</c>, throws an exception on missing value.</param>
+</member><member name="M:InstallerSetup.RegEdit.GetValueData``1(System.String,System.String,System.String,Microsoft.Win32.RegistryValueOptions)">
+	<summary>
+ Gets the data of a registry value.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="valueName">The value name.</param>
+	<param name="registryValueOptions">The registry value options.</param>
+	<returns>The value data</returns>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath</exception>
+</member><member name="M:InstallerSetup.RegEdit.GetValueData``1(System.String,System.String,Microsoft.Win32.RegistryValueOptions)">
+	<summary>
+ Gets the data of a registry value.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<param name="valueName">The value name.</param>
+	<param name="registryValueOptions">The registry value options.</param>
+	<returns>The value data</returns>
+</member><member name="M:InstallerSetup.RegEdit.GetValueData``1(InstallerSetup.RegEdit.RegInfo{``0},Microsoft.Win32.RegistryValueOptions)">
+	<summary>
+ Gets the data of a registry value.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="regInfo">A <see cref="T:InstallerSetup.RegEdit.RegInfo`1"/> instance containing the registry info.</param>
+	<param name="registryValueOptions">The registry value options.</param>
+	<returns>The value data</returns>
+</member><member name="M:InstallerSetup.RegEdit.GetValueData(System.String,System.String,System.String,Microsoft.Win32.RegistryValueOptions)">
+	<summary>
+ Gets the data of a registry value.
+ </summary>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="valueName">The value name.</param>
+	<param name="registryValueOptions">The registry value options.</param>
+	<returns>The value data</returns>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath or valueName</exception>
+</member><member name="M:InstallerSetup.RegEdit.GetValueData(System.String,System.String,Microsoft.Win32.RegistryValueOptions)">
+	<summary>
+ Gets the data of a registry value.
+ </summary>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<param name="valueName">The value name.</param>
+	<param name="registryValueOptions">The registry value options.</param>
+	<returns>The value data</returns>
+</member><member name="M:InstallerSetup.RegEdit.GetValueData(InstallerSetup.RegEdit.RegInfo,Microsoft.Win32.RegistryValueOptions)">
+	<summary>
+ Gets the data of a registry value.
+ </summary>
+	<param name="regInfo">A <see cref="T:InstallerSetup.RegEdit.RegInfo`1"/> instance containing the registry info.</param>
+	<param name="registryValueOptions">The registry value options.</param>
+	<returns>The value data</returns>
+</member><member name="M:InstallerSetup.RegEdit.ExistSubKey(System.String,System.String)">
+	<summary>
+ Determines whether a registry subkey exists.
+ </summary>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<returns><c>true</c> if subkey exist, <c>false</c> otherwise.</returns>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath</exception>
+</member><member name="M:InstallerSetup.RegEdit.ExistSubKey(System.String)">
+	<summary>
+ Determines whether a registry subkey exists.
+ </summary>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<returns><c>true</c> if subkey exist, <c>false</c> otherwise.</returns>
+</member><member name="M:InstallerSetup.RegEdit.ExistValue(System.String,System.String,System.String)">
+	<summary>
+ Determines whether a registry value exists.
+ </summary>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="valueName">The value name.</param>
+	<returns><c>true</c> if value exist, <c>false</c> otherwise.</returns>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath or valueName</exception>
+</member><member name="M:InstallerSetup.RegEdit.ExistValue(System.String,System.String)">
+	<summary>
+ Determines whether a registry subkey exists.
+ </summary>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<param name="valueName">The value name.</param>
+	<returns><c>true</c> if subkey exist, <c>false</c> otherwise.</returns>
+</member><member name="M:InstallerSetup.RegEdit.ValueIsEmpty(System.String,System.String,System.String)">
+	<summary>
+ Determines whether a registry value is empty.
+ </summary>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="valueName">The value name.</param>
+	<returns><c>true</c> if value is empty, <c>false</c> otherwise.</returns>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath or valueName</exception>
+</member><member name="M:InstallerSetup.RegEdit.ValueIsEmpty(System.String,System.String)">
+	<summary>
+ Determines whether a registry value is empty.
+ </summary>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<param name="valueName">The value name.</param>
+	<returns><c>true</c> if value is empty, <c>false</c> otherwise.</returns>
+</member><member name="M:InstallerSetup.RegEdit.ImportRegFile(System.String)">
+	<summary>
+ Imports a registry file into the current registry Hive.
+ </summary>
+	<param name="regFilePath">The registry filepath.</param>
+	<returns><c>true</c> if operation succeeds, <c>false</c> otherwise.</returns>
+	<exception cref="T:System.ArgumentNullException">regFilePath</exception>
+</member><member name="M:InstallerSetup.RegEdit.ExportKey(System.String,System.String,System.String)">
+	<summary>
+ Exports a key to a registry file.
+ </summary>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="OutputFile">Indicates the output file.</param>
+	<returns><c>true</c> if operation succeeds, <c>false</c> otherwise.</returns>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath or outputFile</exception>
+</member><member name="M:InstallerSetup.RegEdit.ExportKey(System.String,System.String)">
+	<summary>
+ Exports a key to a registry file.
+ </summary>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<param name="OutputFile">Indicates the output file.</param>
+	<returns><c>true</c> if operation succeeds, <c>false</c> otherwise.</returns>
+</member><member name="M:InstallerSetup.RegEdit.JumpToKey(System.String,System.String)">
+	<summary>
+ Runs Regedit.exe process to jump at the specified key.
+ </summary>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath</exception>
+</member><member name="M:InstallerSetup.RegEdit.JumpToKey(System.String)">
+	<summary>
+ Runs Regedit.exe process to jump at the specified key.
+ </summary>
+	<param name="fullKeyPath">The registry key full path.</param>
+</member><member name="M:InstallerSetup.RegEdit.CopyValue(System.String,System.String,System.String,System.String)">
+	<summary>
+ Copies a registry value (with its data) to another subkey.
+ </summary>
+	<param name="sourceFullKeyPath">The source registry key full path.</param>
+	<param name="sourceValueName">The source registry value name.</param>
+	<param name="targetFullKeyPath">The target registry key full path.</param>
+	<param name="targetValueName">The target registry value name.</param>
+</member><member name="M:InstallerSetup.RegEdit.CopyValue(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Copies a registry value (with its data) to another subkey.
+ </summary>
+	<param name="sourceRootKeyName">The source registry rootkey name.</param>
+	<param name="sourceSubKeyPath">The source registry subkey path.</param>
+	<param name="sourceValueName">The source registry value name.</param>
+	<param name="targetRootKeyName">The target registry rootkey name.</param>
+	<param name="targetSubKeyPath">The target registry subkey path.</param>
+	<param name="targetValueName">The target registry value name.</param>
+</member><member name="M:InstallerSetup.RegEdit.MoveValue(System.String,System.String,System.String,System.String)">
+	<summary>
+ Moves a registry value (with its data) to another subkey.
+ </summary>
+	<param name="sourceFullKeyPath">The source registry key full path.</param>
+	<param name="sourceValueName">The source registry value name.</param>
+	<param name="targetFullKeyPath">The target registry key full path.</param>
+	<param name="targetValueName">The target registry value name.</param>
+</member><member name="M:InstallerSetup.RegEdit.MoveValue(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Moves a registry value (with its data) to another subkey.
+ </summary>
+	<param name="sourceRootKeyName">The source registry rootkey name.</param>
+	<param name="sourceSubKeyPath">The source registry subkey path.</param>
+	<param name="sourceValueName">The source registry value name.</param>
+	<param name="targetRootKeyName">The target registry rootkey name.</param>
+	<param name="targetSubKeyPath">The target registry subkey path.</param>
+	<param name="targetValueName">The target registry value name.</param>
+</member><member name="M:InstallerSetup.RegEdit.CopyKeyTree(System.String,System.String,System.String,System.String)">
+	<summary>
+ Copies a registry key tree to another registry path.
+ </summary>
+	<param name="sourceRootKeyName">The source registry rootkey name.</param>
+	<param name="sourceSubKeyPath">The source registry subkey path.</param>
+	<param name="targetRootKeyName">The target registry rootkey name.</param>
+	<param name="targetSubKeyPath">The target registry subkey path.</param>
+	<exception cref="T:System.ArgumentNullException">
+ sourceRootKeyName or sourceSubKeyPath or targetRootKeyName or targetSubKeyPath
+ </exception>
+</member><member name="M:InstallerSetup.RegEdit.CopyKeyTree(System.String,System.String)">
+	<summary>
+ Copies a registry key tree to another registry path.
+ </summary>
+	<param name="sourceFullKeyPath">The source registry key full path.</param>
+	<param name="targetFullKeyPath">The target registry key full path.</param>
+</member><member name="M:InstallerSetup.RegEdit.CopySubKeys(Microsoft.Win32.RegistryKey,Microsoft.Win32.RegistryKey)">
+	<summary>
+ Copies the sub-keys of the specified registry key.
+ </summary>
+	<param name="sourceRegistryKey">Indicates the old key.</param>
+	<param name="targetRegistryKey">Indicates the new key.</param>
+</member><member name="M:InstallerSetup.RegEdit.CopySubKeys(System.String,System.String,System.String,System.String)">
+	<summary>
+ Copies the sub-keys of the specified registry key.
+ </summary>
+	<param name="sourceRootKeyName">The source registry rootkey name.</param>
+	<param name="sourceSubKeyPath">The source registry subkey path.</param>
+	<param name="targetRootKeyName">The target registry rootkey name.</param>
+	<param name="targetSubKeyPath">The target registry subkey path.</param>
+</member><member name="M:InstallerSetup.RegEdit.CopySubKeys(System.String,System.String)">
+	<summary>
+ Copies the sub-keys of the specified registry key.
+ </summary>
+	<param name="sourceFullKeyPath">The source registry key full path.</param>
+	<param name="targetFullKeyPath">The target registry key full path.</param>
+</member><member name="M:InstallerSetup.RegEdit.MoveKeyTree(System.String,System.String,System.String,System.String)">
+	<summary>
+ Moves a registry key tree to another registry path.
+ </summary>
+	<param name="sourceRootKeyName">The source registry rootkey name.</param>
+	<param name="sourceSubKeyPath">The source registry subkey path.</param>
+	<param name="targetRootKeyName">The target registry rootkey name.</param>
+	<param name="targetSubKeyPath">The target registry subkey path.</param>
+	<exception cref="T:System.ArgumentNullException">
+ sourceRootKeyName or sourceSubKeyPath or targetRootKeyName or targetSubKeyPath
+ </exception>
+</member><member name="M:InstallerSetup.RegEdit.MoveKeyTree(System.String,System.String)">
+	<summary>
+ Moves a registry key tree to another registry path.
+ </summary>
+	<param name="sourceFullKeyPath">The source registry key full path.</param>
+	<param name="targetFullKeyPath">The target registry key full path.</param>
+</member><member name="M:InstallerSetup.RegEdit.MoveSubKeys(System.String,System.String,System.String,System.String)">
+	<summary>
+ Moves the sub-keys of the specified registry key.
+ </summary>
+	<param name="sourceRootKeyName">The source registry rootkey name.</param>
+	<param name="sourceSubKeyPath">The source registry subkey path.</param>
+	<param name="targetRootKeyName">The target registry rootkey name.</param>
+	<param name="targetSubKeyPath">The target registry subkey path.</param>
+</member><member name="M:InstallerSetup.RegEdit.MoveSubKeys(System.String,System.String)">
+	<summary>
+ Moves the sub-keys of the specified registry key.
+ </summary>
+	<param name="sourceFullKeyPath">The source registry key full path.</param>
+	<param name="targetFullKeyPath">The target registry key full path.</param>
+</member><member name="M:InstallerSetup.RegEdit.GetRootKey(System.String)">
+	<summary>
+ Gets the root <see cref="T:Microsoft.Win32.RegistryKey"/> of a registry path.
+ </summary>
+	<returns>The root <see cref="T:Microsoft.Win32.RegistryKey"/> of a registry path.</returns>
+</member><member name="M:InstallerSetup.RegEdit.GetRootKeyName(System.String)">
+	<summary>
+ Gets the root key name of a registry path.
+ </summary>
+	<returns>The root key name of a registry path.</returns>
+</member><member name="M:InstallerSetup.RegEdit.GetSubKeyPath(System.String)">
+	<summary>
+ Gets the subkey path of a registry path.
+ </summary>
+	<returns>The root <see cref="T:Microsoft.Win32.RegistryKey"/> of a key-path.</returns>
+</member><member name="M:InstallerSetup.RegEdit.FindSubKey(System.String,System.String,System.String,System.Boolean,System.Boolean,System.IO.SearchOption)">
+	<summary>
+ Finds on a registry path all the subkey names that matches the specified criteria.
+ </summary>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="subKeyName">The subkey name to find.</param>
+	<param name="matchFullSubKeyName">If set to <c>true</c>, matches all the subkey name, otherwise matches a part of the name.</param>
+	<param name="ignoreCase">If set to <c>true</c>, performs a non-sensitive stringcase comparison.</param>
+	<param name="searchOption">The search mode.</param>
+	<returns>IEnumerable(Of RegInfo).</returns>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath or subKeyName</exception>
+</member><member name="M:InstallerSetup.RegEdit.FindSubKey(System.String,System.String,System.Boolean,System.Boolean,System.IO.SearchOption)">
+	<summary>
+ Finds on a registry path all the subkey names that matches the specified criteria.
+ </summary>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<param name="subKeyName">The subkey name to find.</param>
+	<param name="matchFullSubKeyName">If set to <c>true</c>, matches all the subkey name, otherwise matches a part of the name.</param>
+	<param name="ignoreCase">If set to <c>true</c>, performs a non-sensitive stringcase comparison.</param>
+	<param name="searchOption">The search mode.</param>
+	<returns>IEnumerable(Of RegInfo).</returns>
+</member><member name="M:InstallerSetup.RegEdit.FindValue(System.String,System.String,System.String,System.Boolean,System.Boolean,System.IO.SearchOption)">
+	<summary>
+ Finds on a registry path all the value names that matches the specified criteria.
+ </summary>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="valueName">The value name to find.</param>
+	<param name="matchFullValueName">If set to <c>true</c>, matches all the value name, otherwise matches a part of the name.</param>
+	<param name="ignoreCase">If set to <c>true</c>, performs a non-sensitive stringcase comparison.</param>
+	<param name="searchOption">The search mode.</param>
+	<returns>IEnumerable(Of RegInfo).</returns>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath or subKeyName</exception>
+</member><member name="M:InstallerSetup.RegEdit.FindValue(System.String,System.String,System.Boolean,System.Boolean,System.IO.SearchOption)">
+	<summary>
+ Finds on a registry path all the value names that matches the specified criteria.
+ </summary>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<param name="valueName">The value name to find.</param>
+	<param name="matchFullValueName">If set to <c>true</c>, matches all the value name, otherwise matches a part of the name.</param>
+	<param name="ignoreCase">If set to <c>true</c>, performs a non-sensitive stringcase comparison.</param>
+	<param name="searchOption">The search mode.</param>
+	<returns>IEnumerable(Of RegInfo).</returns>
+</member><member name="M:InstallerSetup.RegEdit.FindValueData(System.String,System.String,System.String,System.Boolean,System.Boolean,System.IO.SearchOption)">
+	<summary>
+ Finds on a registry path all the values that contains data that matches the specified criteria.
+ </summary>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="valueData">The data to find.</param>
+	<param name="matchFullData">If set to <c>true</c>, matches all the data, otherwise matches a part of the data.</param>
+	<param name="ignoreCase">If set to <c>true</c>, performs a non-sensitive stringcase comparison (for String data).</param>
+	<param name="searchOption">The search mode.</param>
+	<returns>IEnumerable(Of RegInfo).</returns>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath or subKeyName</exception>
+</member><member name="M:InstallerSetup.RegEdit.SetUserAccessKey(System.String,System.String,InstallerSetup.RegEdit.ReginiUserAccess[])">
+	<summary>
+ Modifies the user permissions of a registry key.
+ </summary>
+	<param name="rootKeyName">The rootkey name.</param>
+	<param name="subKeyPath">The subkey path.</param>
+	<param name="userAccess">The user access.</param>
+	<returns><c>true</c> if operation succeeds, <c>false</c> otherwise.</returns>
+	<exception cref="T:System.ArgumentNullException">rootKeyName or subKeyPath</exception>
+</member><member name="M:InstallerSetup.RegEdit.SetUserAccessKey(System.String,InstallerSetup.RegEdit.ReginiUserAccess[])">
+	<summary>
+ Modifies the user permissions of a registry key.
+ </summary>
+	<param name="fullKeyPath">The registry key full path.</param>
+	<param name="userAccess">The user access.</param>
+	<returns><c>true</c> if operation succeeds, <c>false</c> otherwise.</returns>
+</member><member name="M:InstallerSetup.RegEdit.CollectSubKeys(Microsoft.Win32.RegistryKey,System.IO.SearchOption)">
+	<summary>
+ Collects the subkeys on the specified registry path.
+ </summary>
+	<param name="sourceRegistryKey">The source registry key.</param>
+	<param name="searchOption">The search mode.</param>
+	<returns>IEnumerable(Of System.String).</returns>
+</member><member name="M:InstallerSetup.RegEdit.CollectValues(Microsoft.Win32.RegistryKey,System.IO.SearchOption)">
+	<summary>
+ Collects the values on the specified registry path.
+ </summary>
+	<param name="sourceRegistryKey">The source registry key.</param>
+	<param name="searchOption">The search mode.</param>
+	<returns>IEnumerable(Of RegInfo).</returns>
+</member><member name="M:InstallerSetup.RegEdit.CollectValueDatas(Microsoft.Win32.RegistryKey,System.IO.SearchOption)">
+	<summary>
+ Collects the value datas on the specified registry path.
+ </summary>
+	<param name="sourceRegistryKey">The source registry key.</param>
+	<param name="searchOption">The search mode.</param>
+	<returns>IEnumerable(Of RegInfo).</returns>
+</member><member name="T:InstallerSetup.RegEdit">
+	<summary>
+ Contains registry related methods.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.SLGP_FLAGS.SLGP_SHORTPATH">
+	<summary>
+ Retrieves the standard short (8.3 format) file name.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.SLGP_FLAGS.SLGP_UNCPRIORITY">
+	<summary>
+ Retrieves the Universal Naming Convention (UNC) path name of the file.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.SLGP_FLAGS.SLGP_RAWPATH">
+	<summary>
+ Retrieves the raw path name. 
+ A raw path is something that might not exist and may include environment variables that need to be expanded.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.SLR_FLAGS.SLR_NO_UI">
+	<summary>
+ Do not display a dialog box if the link cannot be resolved. When SLR_NO_UI is set,
+ the high-order word of fFlags can be set to a time-out value that specifies the
+ maximum amount of time to be spent resolving the link. The function returns if the
+ link cannot be resolved within the time-out duration. If the high-order word is set
+ to zero, the time-out duration will be set to the default value of 3,000 milliseconds
+ (3 seconds). To specify a value, set the high word of fFlags to the desired time-out
+ duration, in milliseconds.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.SLR_FLAGS.SLR_UPDATE">
+	<summary>
+ If the link object has changed, update its path and list of identifiers.
+ If SLR_UPDATE is set, you do not need to call IPersistFile::IsDirty to determine,
+ whether or not the link object has changed.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.SLR_FLAGS.SLR_NOUPDATE">
+	<summary>
+ Do not update the link information
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.SLR_FLAGS.SLR_NOSEARCH">
+	<summary>
+ Do not execute the search heuristics
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.SLR_FLAGS.SLR_NOTRACK">
+	<summary>
+ Do not use distributed link tracking
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.SLR_FLAGS.SLR_NOLINKINFO">
+	<summary>
+ Disable distributed link tracking. 
+ By default, distributed link tracking tracks removable media,
+ across multiple devices based on the volume name. 
+ It also uses the Universal Naming Convention (UNC) path to track remote file systems,
+ whose drive letter has changed.
+ Setting SLR_NOLINKINFO disables both types of tracking.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.SLR_FLAGS.SLR_INVOKE_MSI">
+	<summary>
+ Call the Microsoft Windows Installer
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.ShortcutFile">
+	<summary>
+ Shortcut file full path.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.Description">
+	<summary>
+ Shortcut Comment/Description.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.Arguments">
+	<summary>
+ Shortcut Target Arguments.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.Target">
+	<summary>
+ Shortcut Target.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.WorkingDir">
+	<summary>
+ Shortcut Working Directory.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.Icon">
+	<summary>
+ Shortcut Icon Location.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.IconIndex">
+	<summary>
+ Shortcut Icon Index.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.Hotkey">
+	<summary>
+ Shortcut Hotkey combination.
+ Is represented as Hexadecimal.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.Hotkey_Modifier">
+	<summary>
+ Shortcut Hotkey modifiers.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.Hotkey_Key">
+	<summary>
+ Shortcut Hotkey Combination.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.WindowState">
+	<summary>
+ Shortcut Window State.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.IsFile">
+	<summary>
+ Indicates if the target is a file.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.IsDirectory">
+	<summary>
+ Indicates if the target is a directory.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.DriveLetter">
+	<summary>
+ Shortcut target drive letter.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.DirectoryName">
+	<summary>
+ Shortcut target directory name.
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.FileName">
+	<summary>
+ Shortcut target filename.
+ (File extension is not included in name)
+ </summary>
+</member><member name="P:InstallerSetup.ShortcutManager.ShortcutInfo.FileExtension">
+	<summary>
+ Shortcut target file extension.
+ </summary>
+</member><member name="T:InstallerSetup.ShortcutManager.ShortcutInfo">
+	<summary>
+ Stores information about a shortcut file.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.HotkeyModifiers.SHIFT">
+	<summary>
+ The SHIFT key.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.HotkeyModifiers.CONTROL">
+	<summary>
+ The CTRL key.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.HotkeyModifiers.ALT">
+	<summary>
+ The ALT key.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.HotkeyModifiers.NONE">
+	<summary>
+ None.
+ Specifies any hotkey modificator.
+ </summary>
+</member><member name="T:InstallerSetup.ShortcutManager.HotkeyModifiers">
+	<summary>
+ Hotkey modifiers for a shortcut file.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.ShortcutWindowState.Normal">
+	<summary>
+ Shortcut Window is at normal state.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.ShortcutWindowState.Maximized">
+	<summary>
+ Shortcut Window is Maximized.
+ </summary>
+</member><member name="F:InstallerSetup.ShortcutManager.ShortcutWindowState.Minimized">
+	<summary>
+ Shortcut Window is Minimized.
+ </summary>
+</member><member name="T:InstallerSetup.ShortcutManager.ShortcutWindowState">
+	<summary>
+ The Window States for a shortcut file.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.GetPath(System.Text.StringBuilder,System.Int32,InstallerSetup.ShortcutManager.WIN32_FIND_DATAW@,InstallerSetup.ShortcutManager.SLGP_FLAGS)">
+	<summary>
+ Retrieves the path and file name of a Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.GetIDList(System.IntPtr@)">
+	<summary>
+ Retrieves the list of item identifiers for a Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.SetIDList(System.IntPtr)">
+	<summary>
+ Sets the pointer to an item identifier list (PIDL) for a Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.GetDescription(System.Text.StringBuilder,System.Int32)">
+	<summary>
+ Retrieves the description string for a Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.SetDescription(System.String)">
+	<summary>
+ Sets the description for a Shell link object. 
+ The description can be any application-defined string.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.GetWorkingDirectory(System.Text.StringBuilder,System.Int32)">
+	<summary>
+ Retrieves the name of the working directory for a Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.SetWorkingDirectory(System.String)">
+	<summary>
+ Sets the name of the working directory for a Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.GetArguments(System.Text.StringBuilder,System.Int32)">
+	<summary>
+ Retrieves the command-line arguments associated with a Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.SetArguments(System.String)">
+	<summary>
+ Sets the command-line arguments for a Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.GetHotkey(System.Int16@)">
+	<summary>
+ Retrieves the hot key for a Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.SetHotkey(System.Int16)">
+	<summary>
+ Sets a hot key for a Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.GetShowCmd(System.Int32@)">
+	<summary>
+ Retrieves the show command for a Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.SetShowCmd(InstallerSetup.ShortcutManager.ShortcutWindowState)">
+	<summary>
+ Sets the show command for a Shell link object. 
+ The show command sets the initial show state of the window.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.GetIconLocation(System.Text.StringBuilder,System.Int32,System.Int32@)">
+	<summary>
+ Retrieves the location (path and index) of the icon for a Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.SetIconLocation(System.String,System.Int32)">
+	<summary>
+ Sets the location (path and index) of the icon for a Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.SetRelativePath(System.String,System.Int32)">
+	<summary>
+ Sets the relative path to the Shell link object.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.Resolve(System.IntPtr,InstallerSetup.ShortcutManager.SLR_FLAGS)">
+	<summary>
+ Attempts to find the target of a Shell link, 
+ even if it has been moved or renamed.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.IShellLinkW.SetPath(System.String)">
+	<summary>
+ Sets the path and file name of a Shell link object
+ </summary>
+</member><member name="T:InstallerSetup.ShortcutManager.IShellLinkW">
+	<summary>
+ The IShellLink interface allows Shell links to be created, modified, and resolved
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.Resolve_Ui(System.String,System.IntPtr)">
+	<summary>
+ Resolves the target of a shortcut.
+ If shortcut can't be resolved, an error message would be displayed.
+ This is usefull when the target path of a shortcut file is changed from a driveletter for example,
+ then the shortcut file need to be resolved before trying to retrieve the target path.
+ </summary>
+	<param name="ShortcutFile">
+ The shortcut file to resolve.
+ </param>
+	<param name="hwnd">
+ The new handle pointer that would be generated
+ for the window which should display the error message (if any).
+ </param>
+</member><member name="M:InstallerSetup.ShortcutManager.Resolve_NoUi(System.String)">
+	<summary>
+ Resolves the target of a shortcut.
+ If shortcut can't be resolved, any error message would be displayed.
+ This is usefull when the target path of a shortcut file is changed from a driveletter for example,
+ then the shortcut file need to be resolved before trying to retrieve the target path.
+ </summary>
+	<param name="ShortcutFile">
+ The shortcut file to resolve.
+ </param>
+</member><member name="M:InstallerSetup.ShortcutManager.Get_Description(System.String)">
+	<summary>
+ Returns the description of a shortcut file.
+ </summary>
+	<param name="ShortcutFile">
+ The shortcut file to retrieve the info.
+ </param>
+</member><member name="M:InstallerSetup.ShortcutManager.Get_Arguments(System.String)">
+	<summary>
+ Returns the Arguments of a shortcut file.
+ </summary>
+	<param name="ShortcutFile">
+ The shortcut file to retrieve the info.
+ </param>
+</member><member name="M:InstallerSetup.ShortcutManager.Get_FullPath(System.String)">
+	<summary>
+ Returns the path and filename of a shortcut file.
+ </summary>
+	<param name="ShortcutFile">
+ The shortcut file to retrieve the info.
+ </param>
+</member><member name="M:InstallerSetup.ShortcutManager.Get_WorkingDir(System.String)">
+	<summary>
+ Returns the working directory of a shortcut file.
+ </summary>
+	<param name="ShortcutFile">
+ The shortcut file to retrieve the info.
+ </param>
+</member><member name="M:InstallerSetup.ShortcutManager.Get_Hotkey(System.String)">
+	<summary>
+ Returns the Hotkey of a shortcut file.
+ </summary>
+	<param name="ShortcutFile">
+ The shortcut file to retrieve the info.
+ </param>
+</member><member name="M:InstallerSetup.ShortcutManager.Get_WindowStyle(System.String)">
+	<summary>
+ Returns the Window State of a shortcut file.
+ </summary>
+	<param name="ShortcutFile">
+ The shortcut file to retrieve the info.
+ </param>
+</member><member name="M:InstallerSetup.ShortcutManager.Get_IconLocation(System.String,System.Int32@)">
+	<summary>
+ Returns the Icon location of a shortcut file.
+ </summary>
+	<param name="ShortcutFile">
+ The shortcut file to retrieve the info.
+ </param>
+	<param name="IconIndex">
+ Optional Integer type variable to store the IconIndex.
+ </param>
+</member><member name="M:InstallerSetup.ShortcutManager.GetInfo(System.String)">
+	<summary>
+ Retrieves all the information about a shortcut file.
+ </summary>
+	<param name="ShortcutFile">
+ The shortcut file to retrieve the info.
+ </param>
+</member><member name="M:InstallerSetup.ShortcutManager.Create(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,InstallerSetup.ShortcutManager.HotkeyModifiers,System.Windows.Forms.Keys,InstallerSetup.ShortcutManager.ShortcutWindowState)">
+	<summary>
+ Creates a shortcut file.
+ </summary>
+	<param name="FilePath">
+ The filepath to create the shortcut.
+ </param>
+	<param name="Target">
+ The target file or directory.
+ </param>
+	<param name="WorkingDirectory">
+ The working directory os the shortcut.
+ </param>
+	<param name="Description">
+ The shortcut description.
+ </param>
+	<param name="Arguments">
+ The target file arguments.
+ This value only should be set when target is an executable file.
+ </param>
+	<param name="Icon">
+ The icon location of the shortcut.
+ </param>
+	<param name="IconIndex">
+ The icon index of the icon file.
+ </param>
+	<param name="HotKey_Modifier">
+ The hotkey modifier(s) which should be used for the hotkey combination.
+ <paramref name="HotkeyModifiers"/> can be one or more modifiers.
+ </param>
+	<param name="HotKey_Key">
+ The key used in combination with the <paramref name="HotkeyModifiers"/> for hotkey combination.
+ </param>
+	<param name="WindowState">
+ The Window state for the target.
+ </param>
+</member><member name="M:InstallerSetup.ShortcutManager.LoadShortcut(System.String)">
+	<summary>
+ Loads the shortcut object to retrieve information.
+ </summary>
+	<param name="ShortcutFile">
+ The shortcut file to retrieve the info.
+ </param>
+</member><member name="M:InstallerSetup.ShortcutManager.GetLoByte(System.Int32)">
+	<summary>
+ Gets the low order byte of a number.
+ </summary>
+</member><member name="M:InstallerSetup.ShortcutManager.GetHiByte(System.Int32)">
+	<summary>
+ Gets the high order byte of a number.
+ </summary>
+</member><member name="P:InstallerSetup.Controls.CustomRichTextLabel.RichTextLabel.CreateParams">
+	<summary>
+ Turn the control backcolor to transparent.
+ </summary>
+</member><member name="M:InstallerSetup.Controls.CustomRichTextLabel.RichTextLabel.AppendText(System.String,System.Drawing.Color,System.Drawing.Color,System.Drawing.Font)">
+	<summary>
+ Append text to the current text.
+ </summary>
+	<param name="text">The text to append</param>
+	<param name="forecolor">The font color</param>
+	<param name="backcolor">The Background color</param>
+	<param name="font">The font of the appended text</param>
+</member><member name="T:InstallerSetup.Controls.LogInLabelTheme.DrawHelpers">
+	<summary>
+ LogIn GDI+ Theme
+ Creator: Xertz (HF)
+ Version: 1.4
+ Control Count: 28
+ Date Created: 18/12/2013
+ Date Changed: 07/09/2014
+ UID: 1602992
+ For any bugs / errors, PM me.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

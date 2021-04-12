@@ -1,0 +1,49 @@
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\obj\Release\InstallerSetup.Form1.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\obj\Release\InstallerSetup.Resources.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\obj\Release\InstallerSetup.Step1.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\obj\Release\InstallerSetup.vbproj.GenerateResource.Cache
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\bin\Release\InstallerSetup.exe
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\bin\Release\InstallerSetup.pdb
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\bin\Release\InstallerSetup.xml
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\obj\Release\InstallerSetup.exe
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\obj\Release\InstallerSetup.xml
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\obj\Release\InstallerSetup.pdb
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\obj\Release\InstallerSetup.Step2.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\obj\Release\InstallerSetup.Step3.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\obj\Release\InstallerSetup.Step4.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\InstallerSetup\obj\Release\InstallerSetup.Step5.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\bin\Release\InstallerSetup.exe
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\bin\Release\InstallerSetup.pdb
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\bin\Release\InstallerSetup.xml
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Form1.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Resources.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Step1.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Step2.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Step3.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Step4.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Step5.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.UninstallBye.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Unistall.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.UnistallFinal.resources
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.vbproj.GenerateResource.Cache
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.exe
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.xml
+C:\Users\Hacker\Documents\Visual Studio 2012\Projects\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.pdb
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.exe
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.xml
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.pdb
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\bin\Release\InstallerSetup.exe
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\bin\Release\InstallerSetup.pdb
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\bin\Release\InstallerSetup.xml
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Form1.resources
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Resources.resources
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Step1.resources
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Step2.resources
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Step3.resources
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Step4.resources
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Step5.resources
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.UninstallBye.resources
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.Unistall.resources
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.UnistallFinal.resources
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.vbproj.GenerateResource.Cache
+C:\Users\MultiEBD\Desktop\ScriptObfuzcator\asd\InstallerSetup\obj\Release\InstallerSetup.UpdateForm.resources
