@@ -1,2 +1,13 @@
-HAROLD  -  Best Donator (100$) | Donate $ 100 for DLL Injector Hacker Remastering |
-ByCrackHack - Donator (10$)| Love for DLL Injector Hacker |
+<?xml version="1.0"?>
+                               <Home>
+                                   <Donator1>
+                                       <Title>HAROLD  -  Best Donator (100$)</Title>
+                                       <Image></Image>
+                                       <Description>Donate $ 100 for DLL Injector Hacker Remastering</Description>
+                                   </Donator1>
+                                   <Donator2>
+                                       <Title>ByCrackHack - Donator (10$)</Title>
+                                       <Image></Image>
+                                       <Description>Love for DLL Injector Hacker</Description>
+                                   </Donator2>
+                               </Home>
