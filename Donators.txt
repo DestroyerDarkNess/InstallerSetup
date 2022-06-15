@@ -10,4 +10,14 @@
                                        <Image></Image>
                                        <Description>Love for DLL Injector Hacker</Description>
                                    </Donator2>
+                                    <Donator3>
+                                       <Title>Anonim1 - Donator (30$)</Title>
+                                       <Image></Image>
+                                       <Description>Love for DLL Injector Hacker</Description>
+                                   </Donator3>
+                                     <Donator4>
+                                       <Title>Antonio - Donator (2$)</Title>
+                                       <Image></Image>
+                                       <Description>Love for DLL Injector Hacker</Description>
+                                   </Donator4>
                                </Home>
